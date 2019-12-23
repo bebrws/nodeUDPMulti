@@ -1,7 +1,7 @@
 //Multicast Client receiving sent messages
 var PORT = 41848;
 var MCAST_ADDR = "230.185.192.108"; //same mcast address as Server
-var HOST = '192.168.1.9'; //this is your own IP
+var HOST = '192.168.1.18'; //this is your own IP
 var dgram = require('dgram');
 var client = dgram.createSocket('udp4');
 
